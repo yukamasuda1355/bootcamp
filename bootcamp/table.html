@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Element</title>
+</head>
+<body>
+    <h1>Table Element</h1>
+
+    <h2>Table 1 using td</h2>
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <h2>table 2 using th</h2>
+    <table border="1">
+         <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email Address</th>
+         </tr>
+         <tr>
+            <th>John Adam</th>
+            <th>29</th>
+            <th>johnadam@gmail.com</th>
+         </tr>
+         <tr>
+            <th>Steve Jobs</th>
+            <th>56</th>
+            <th>stevejobs1234@gmail.com</th>
+         </tr>
+    </table>
+
+    <h2>table 3 using grouping table element</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>First Week</th>
+                <th>Sevcond Week</th>
+                <th>Third Week</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>200</td>
+                <td>400</td>
+                <td>450</td>
+            </tr>
+            <tr>
+                <td>300</td>
+                <td>350</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>500</th>
+                <th>750</th>
+                <th>950</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <h2>table 4 with colspan</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Number</th>
+            <!-- <th></th> -->
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>9283747483</td>
+            <td>8474658493</td>
+        </tr>
+        <tr>
+            <td>Mark Johnson</td>
+            <td>847464748484</td>
+            <td>847473873838</td>
+        </tr>
+
+    </table>
+
+    <h2>Table 5 with rowspan</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <td>Bill Gates</td>
+            <td>Steve Jobs</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Contact Numbers</th>
+            <td>345458584584</td>
+            <td>384474728284</td>
+        </tr>
+        <tr>
+            <!-- <th></th> -->
+            <td>203948484944</td>
+            <td>838378933838</td>
+        </tr>
+
+    </table>
+</body>
+</html>

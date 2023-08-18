@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.john{
+    border: 1px solid black;
+    box-shadow: 3px 3px 2px 2px gray;
+    float: left;
+    width: 48%;
+    height: 400px;
+    
+    
+}
+
+.jane{
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 3px 3px 2px 2px gray;
+    float: right;
+    width: 48%;
+    height: 400px;
+    
+
+}

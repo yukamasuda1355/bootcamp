@@ -1,0 +1,35 @@
+.table-1{
+    width: 300px;
+    height: 250px;
+    color: tomato;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.table-with-border,.table-with-border th{
+    border: 1px solid red;
+}
+/* .table-with-border th
+    border: 1px solid green;
+} */
+
+.empty-cells,.empty-cells th,.empty-cells td{
+    border: 1px solid blue;
+    empty-cells: show;
+    empty-cells: hide;
+}
+.border-collapse,.border-collapse th,.border-collapse td{
+    border: 1px solid red;
+    border-collapse: separate;
+    border-collapse: collapse;
+}
+.border-spacing,.border-spacing th,.border-spacing td{
+    border: 1px solid green;
+    border-spacing: 15px 20px;
+    border-spacing: 10px;
+}
+.border-spacing th{
+    background-color: tomato;
+    font-size: 30px;
+}

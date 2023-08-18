@@ -1,0 +1,37 @@
+table{
+    border: 2px solid black;
+    width: 800px;
+    height: 150px;
+}
+
+.table-head,.table-head th{
+    color: aliceblue;
+    background-color: tomato;
+}
+
+.table1,.table1 th{
+    background-color: rgb(251, 195, 122);
+}
+
+.email-1{
+    color: blue;
+    text-decoration: underline;
+}
+
+.email-2{
+    color: blue;
+    text-decoration: underline;
+}
+
+.table3,.table3 th{
+    background-color:  rgb(251, 195, 122);
+}
+
+.table5,.table5 th{
+    background-color:  rgb(251, 195, 122);
+}
+
+.email-5{
+    color: blue;
+    text-decoration: underline;
+}
